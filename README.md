@@ -1,29 +1,21 @@
 # tg-bots-test
 
+## Important
+
+Я использовал те технологии и архитектурные решения, которые считаю правильными,
+даже с учетом того, что они, возможно, чересчур сложные для тестового задания.
+
+Я не делал упор на визуальную составляющую. Bootstrap немножко устарел для этого,
+но это я считаю неважным, ведь на проде все равно свои библиотеки и стили.
+
 ## Project setup
-```
+
+``` bash
 npm install
 ```
 
 ### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
+``` bash
+npm run dev
 ```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
