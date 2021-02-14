@@ -4,8 +4,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    'plugin:vue/essential',
-    '@vue/airbnb',
+    'plugin:vue/recommended',
     '@vue/typescript/recommended',
   ],
   parserOptions: {
@@ -14,6 +13,8 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'quotes': [2, 'single', { 'avoidEscape': true }],
+    'semi': [2, 'never']
   },
   overrides: [
     {
