@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="d-flex flex-row justify-content-center">
-      <div class="d-flex flex-column col-6">
+      <div class="d-flex flex-column col-lg-6">
         <div class="d-flex flex-row justify-content-center my-3">
           <b-button
             size="lg"

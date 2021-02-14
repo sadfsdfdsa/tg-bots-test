@@ -1,6 +1,6 @@
 <template>
   <div
-    class="d-flex flex-row justify-content-start card p-3 align-items-center rounded bg-light shadow-sm"
+    class="d-flex flex-row flex-wrap justify-content-around card p-3 align-items-center rounded bg-light shadow-sm"
   >
     <div class="d-flex flex-shrink-0">
       <b-img
@@ -11,7 +11,7 @@
         style="width: 75px; height: 75px"
       />
     </div>
-    <div class="d-flex mx-2 col-4 text-truncate flex-column">
+    <div class="d-flex flex-column col-sm-12 col-md-4 mx-2 text-truncate">
       <div class="d-flex font-weight-bold">
         {{ bot.name }}
       </div>
@@ -19,7 +19,7 @@
         {{ bot.descr }}
       </div>
     </div>
-    <div class="col">
+    <div class="d-flex mr-1">
       {{ date }}
     </div>
     <b-button
