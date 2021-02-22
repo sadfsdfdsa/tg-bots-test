@@ -37,7 +37,6 @@
       <BotModal
         v-if="modalShow"
         :show="modalShow"
-        @changeShow="test"
         @close="modalShow = false"
       />
     </div>
@@ -60,10 +59,6 @@ export default class MainPageView extends Vue {
 
   get bots() {
     return botsModule.getters.bots
-  }
-
-  test(value: boolean) {
-    console.log(value)
   }
 
   editBot(uid: string | null) {
